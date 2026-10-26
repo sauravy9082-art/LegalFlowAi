@@ -1,0 +1,3 @@
+@echo off
+echo Starting LegalFlow AI Frontend Dev Server...
+node node_modules\vite\bin\vite.js

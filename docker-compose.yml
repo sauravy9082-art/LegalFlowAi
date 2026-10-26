@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: legalflow-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      - OLLAMA_MODEL=llama3.1:8b
+      - DATABASE_URL=sqlite:///./legalflow.db
+      - CHROMA_PATH=./chroma_db
+      - STORAGE_PATH=./storage
+    volumes:
+      - ./storage:/app/storage
+
+  web:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: legalflow-web
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend

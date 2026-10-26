@@ -1,0 +1,17 @@
+VERSION A — ORIGINAL
+
+1. Scope of Services: Service Provider shall deliver software engineering and cloud infrastructure services.
+
+2. Payment & Fees: Client shall pay INR 80,000 per month. Payment due within 30 days of invoice.
+
+3. Confidentiality: Each party agrees to maintain strict confidentiality for a duration of 24 months.
+
+4. Limitation of Liability: Total liability under this agreement shall be capped at INR 100,000.
+
+5. Termination: Either party may terminate this agreement upon 30 days prior written notice.
+
+6. Renewal: Agreement shall automatically renew for successive 1-year terms.
+
+7. Intellectual Property: All deliverables created under this agreement belong exclusively to Client.
+
+8. Dispute Resolution: Disputes shall be settled through binding arbitration under standard rules in Mumbai.
